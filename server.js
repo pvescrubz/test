@@ -417,3 +417,4 @@ async function processFromStdin() {
         process.exit(1);
     }
 })();
+
