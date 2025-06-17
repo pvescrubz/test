@@ -347,24 +347,73 @@ process.on('SIGINT', async () => {
     }
     process.exit();
 });
-
-// === Измененный запуск приложения ===
-(async () => {
-    // Убираем initializeClients() - теперь клиенты будут инициализироваться по требованию
-    
-    if (process.argv.includes('--server')) {
-        // Режим сервера
-        app.listen(PORT, () => {
-            console.log(`Сервер запущен на порту ${PORT}`);
-            console.log(`Аккаунты будут подгружаться по необходимости`);
-        });
-    } else {
-        // Режим CLI
-        await processFromStdin();
+// === CLI интерфейс ===
+async function processFromStdin() {
+    return new Promise((resolve) => {
+        let data = '';
         
-        // После обработки отключаем все использованные клиенты
-        for (const client of clients) {
-            await client.client.disconnect();
+        process.stdin.setEncoding('utf8');
+        
+        process.stdin.on('data', (chunk) => {
+            data += chunk;
+        });
+
+        process.stdin.on('end', async () => {
+            // Разделяем ссылки по пробелам и фильтруем
+            const links = data.split(/\s+/)
+                .map(link => link.trim())
+                .filter(link => link.includes('vk.com/wall'));
+            
+            if (links.length === 0) {
+                console.log("❌ Нет ссылок для обработки");
+                return resolve(false);
+            }
+
+            console.log(`\nОбработка ${links.length} ссылок...`);
+            for (const link of links) {
+                await processVkLink(link);
+                await delay(1000);
+            }
+
+            console.log("\n✅ Готово");
+            resolve(true);
+        });
+    });
+}
+
+// === Запуск приложения ===
+(async () => {
+    try {
+        // Проверка конфигурации (только вывод информации)
+        ACCOUNTS.forEach(acc => {
+            if (!acc.api_id || !acc.api_hash) {
+                console.log(`ℹ️ Аккаунт ${acc.id} использует дефолтные API credentials`);
+            }
+        });
+
+        // Определяем режим работы
+        if (process.argv.includes('--server')) {
+            // Режим сервера
+            app.listen(PORT, () => {
+                console.log(`Сервер запущен на порту ${PORT}`);
+                console.log(`Аккаунты будут подгружаться по необходимости`);
+            });
+        } else if (process.stdin.isTTY) {
+            // Интерактивный режим (не используется)
+            console.log("Для обработки ссылок передайте их через stdin или используйте --server для запуска сервера");
+            process.exit(0);
+        } else {
+            // Режим CLI (обработка из stdin)
+            await processFromStdin();
+            
+            // После обработки отключаем все использованные клиенты
+            for (const client of clients) {
+                await client.client.disconnect();
+            }
+            process.exit(0);
         }
+    } catch (err) {
+        console.error("Критическая ошибка:", err);
+        process.exit(1);
     }
 })();
