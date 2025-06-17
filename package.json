@@ -1,0 +1,23 @@
+{
+  "name": "gramjs-parser",
+  "version": "1.0.0",
+  "description": "Telegram User API parser with telegram-mtproto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "canvas": "^3.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^5.1.0",
+    "input": "^1.0.1",
+    "jimp": "^1.6.0",
+    "jsdom": "^26.1.0",
+    "playwright": "^1.52.0",
+    "readline-sync": "^1.4.10",
+    "sharp": "^0.34.2",
+    "telegram": "^2.26.22",
+    "telegram-mtproto": "^2.0.1"
+  }
+}
