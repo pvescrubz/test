@@ -199,18 +199,26 @@ async function processVkLink(link) {
         const ownerVkId = Math.abs(parseInt(parsed.ownerId));
         console.log(`🔍 Пост от VK ID: ${ownerVkId}`);
 
-        // Ищем подходящий аккаунт
+        // Ищем подходящий аккаунт в конфиге (без предварительной инициализации)
         let targetAccount = null;
         
         for (const acc of ACCOUNTS) {
             if (!acc.vk_token) continue;
             
             try {
-                const accVkId = acc.vk_user_id || await getVkUserId(acc.vk_token);
-                if (accVkId === ownerVkId) {
-                    console.log(`🎯 Найден аккаунт: ${acc.id} для VK ID ${ownerVkId}`);
+                // Для проверки соответствия сначала смотрим указанный vk_user_id
+                if (acc.vk_user_id && Math.abs(acc.vk_user_id) === ownerVkId) {
                     targetAccount = acc;
                     break;
+                }
+                
+                // Если vk_user_id не указан, получаем его из API VK
+                if (!acc.vk_user_id) {
+                    const accVkId = await getVkUserId(acc.vk_token);
+                    if (accVkId === ownerVkId) {
+                        targetAccount = acc;
+                        break;
+                    }
                 }
             } catch (err) {
                 console.warn(`⚠️ Ошибка проверки аккаунта ${acc.id}:`, err.message);
@@ -222,16 +230,19 @@ async function processVkLink(link) {
             return;
         }
 
-        // Инициализируем клиента
+        // Проверяем, есть ли уже инициализированный клиент
         let clientObj = clients.find(c => c.id === targetAccount.id);
+        
+        // Если нет - инициализируем только этот аккаунт
         if (!clientObj) {
+            console.log(`⚡ Инициализируем аккаунт ${targetAccount.id}...`);
             clientObj = await initClient(targetAccount);
-            if (clientObj) clients.push(clientObj);
-        }
-
-        if (!clientObj) {
-            console.warn(`⚠️ Не удалось подключить аккаунт ${targetAccount.id}`);
-            return;
+            if (clientObj) {
+                clients.push(clientObj);
+            } else {
+                console.warn(`⚠️ Не удалось подключить аккаунт ${targetAccount.id}`);
+                return;
+            }
         }
 
         // Готовим данные для отправки
@@ -337,12 +348,23 @@ process.on('SIGINT', async () => {
     process.exit();
 });
 
-// Запуск сервера
+// === Измененный запуск приложения ===
 (async () => {
-    await initializeClients();
+    // Убираем initializeClients() - теперь клиенты будут инициализироваться по требованию
     
-    app.listen(PORT, () => {
-        console.log(`Сервер запущен на порту ${PORT}`);
-        console.log(`Доступно ${clients.length} Telegram клиентов для работы`);
-    });
+    if (process.argv.includes('--server')) {
+        // Режим сервера
+        app.listen(PORT, () => {
+            console.log(`Сервер запущен на порту ${PORT}`);
+            console.log(`Аккаунты будут подгружаться по необходимости`);
+        });
+    } else {
+        // Режим CLI
+        await processFromStdin();
+        
+        // После обработки отключаем все использованные клиенты
+        for (const client of clients) {
+            await client.client.disconnect();
+        }
+    }
 })();
