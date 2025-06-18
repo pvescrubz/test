@@ -512,5 +512,86 @@
     "id": 9,
     "vk_token": "vk1.a.RbS11LBv5LmkYjCvrC9bUiYqT86kT_taw0DvSdXFr-FFAdrfyUrB_nL1ygpyLyuCG5dSD5KF_29ZobkCLPsyk30RcRcBF8Rw4cHg4kHzs9676f7jNO0aEBuPFNzXsTClzvWvdLFvZkUIiw5DrjJ1zNws-XZB-NaAhDWzOQceKJEmzqzW8kSatZwWdKnHBh_ktmKnBtus4DMFgdzZbq2_Ww",
     "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBuzdLvLyD5ClZSEOdh0ykmoB8bc63y1tmybpjhKReUDBhP9NNsatUAfjc0pV+XobixM1Zr9WHHlUiQkMRcXdgsmCeItb7GLN4Dx5IG/1TjZL8nRPIyRjZ84w6TD2dUM3qGfcXmSqkvApw4i/HblrwCxUqamGSLixhFBOA9PfX9GcLy2IHvC0N9KWmkdouiSlgW6Cd3NuQVY+KG0eozo4V6+HpehrdTrQC76VqN6pIVYJOYW2/BOryxppAvE5eh5y9AfrNGGwA9BxuotxaMp8XZFG1/qMvi0WUVwHozh9MF1leEstNY+IGTgB53cThm06ZzuZnKQiI6wfqQIxHX4R40dU="
+  },
+   {
+    "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Владислав Курлов",
+    "id": 1,
+    "vk_token": "vk1.a.nuqO9aNLhllEtGJwPsO423MngyMA5H5DNG0DA1KmRkZ9DnznlDGELW_pMB76CcYKCte3PgT-xP5goGGwhxrT0WZK5GHP4hiyejmQ9UgT1RBP2RckF7Dm-Gqw3txNMWlgbuHdwl8AgkrfvHQ4lLnNa_BTvX1z3ONGFIeMRT1JEPoW4fI0CDpWtHrFTmLSmKYSC_8Csf3QJLd0diwIqi0KJA",
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu6QKSV1UTWMpPSDULXn2+VGZxUKf5JOD2/3njLAM5vaJdEx98/FIxGGs4PNP5qdoxkhNXQyep+X5JZO9wFdBZvtjiB+xwrAQWEKT+pr6tg1JV94snUZznUTOfdKTP3BSt9WPiBH1rCk97msSJFtwfPTGDWeq71AQnFMFBbZIp/vJTkN+aXp63EI9cBuY7I7GgMVX+b2qIeHElCLHlBcAbgMo+WQUN0V1HNMuieIHEQ4j178D1RVCFErCTE0WoKp+VTUS8ZeqaP7B5Hm6sxfRgK8RlYn1dI/8pzY2AU/scpSv8HH5NzxHHL4mZP3M/zM0b+y3BG21KLt7jcz7q2jMiI8="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Полина Потанина",
+    "vk_token": "vk1.a.SqcVfey33ieAcVTDmjP0lu09VTF5VOm4k-4GVjj0g1n2__earYiZobpsBytpnnleMKMgWR3M-GB-3Df3QSaVFTfRWM0ckriUnoKWMcMbbf7IzZqE1nVnaHqgIrPb2nfQgvfHVHOzo9sRdGdyiNU8InyB_Vx3R15CE-1LsU-gzjxpRCufCvNezbJjzhLb3yjZMq5H78kaQ6qY4PmAj6sSoQ",
+    "id": 2,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu0faTEgCG4vRFuQ4uKvFa+9PrIn+hfRhj3IBgKBxnNDHA+AInC7YgZM5E1ubBbrMFu+Jb0Tt15gx6CnB8Ust6195hdojTtz9JSCoXnTXo4/UOo75xSMxAShNzQsw6wqitWC0y8w77/2ukBxCA+m8obFHYkePNJTWX4mxuhMXtmkd3DHmcFWPJ/m0N4bFPx4Iq1B6TVv/uMfGD/oELCS9MXdCEmy0xMT81Nh5RindrOS3s9NOEmVJzmZ7MVFX5pjF+ejzA2//Vwp8kYsdJCkzsAitH82fZxxpZXDglKhYsjyxE16htKeaxVu9OzVShGz4bCrsJtG78wdX2V7yJzf8MtA="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Дмитрий Родионов",
+    "vk_token": "vk1.a.le8STCSOkNE0odnXYVzO4faj2UoLYxW9m3RiF6Qc-HJ7SVkc8CF34h0E3F10yWwIIU6qb4ofZhAAGEQHmRIHCQf8NB3EgtPJe0s8fOSPn2r1swlgujGDvC6cRw_9QfZP-x86xSY-1x6DhkqnoaEBbfKaO0XXH3oKseLq7BEOEwlj_7vV0xxLSSGTLF01Pa1Uh4Ti-qIPVblEygYkRlY3WQ",
+    "id": 3,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu30qtxHsxDJZzoqMxh9OcjvprM/P0EUT8EGi7Fh/Sv806XJopAkL/JftdHXizPZOzBi9hle1fwxHu2rqoYCfsKFTgidzzOT0DPHX4wW/RxNTUTJD5F+zCoV+0fpYDYiYYoGuvX6pKEXN00rPpZCJGfbhHF3Ac88zwaRO/nKsxePmLfzeS8NkiU5hmc90vqPkIj61Rrtg3CYjvLUh3L9DshnK8bpheZiZJcjiyhCtWXi4D0QQz9HGvk9ol8aQu36GmxCp2V9y/POcRQnTvvvQfKlqYrjlPVvlmhbPGBQ2fqoD40G18BRgZFbusQWSawwpBk0oBdhCwqA/kpRjXDmHMLk="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Светлана Антонова",
+    "vk_token": "vk1.a.8kXpWAcDzVp5rr4gIttE0HihmjweuI2FzhPxZlL4Scx4lgm-J6uv3GEz12gPlyBznLRo2VIET_LRv8GVMAO1yAX0QDWYqQQXTZCnmOgG-Xr4b6ap4A07avEIDk0zRX4Or47L8j9mbRJukVwKQS_NEkfKkdmUUPc9af2OO0xoUAqIpGav9rq1WpB9IsxMY1ABIEcMSmooMp4l8QcHUt-t9w",
+    "id": 4,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu73yZ2UrudNTqrz24NUpjaByOLC3CDi1Y6faZ/ccbfvr6pQegN6BxV7u9oTg8t2bc65XaRje9U4RUKW9cOr/nAU+vzEQHhAXdgo/WK8e0ko2GMnvpW8u7GGrwCJ4YnGzECakkersvjFpCceoflATHXlmctO7WdA6k1nPbW6SgJUplMzTpGiBFkg93tC+bxcKILq5gygyUBAbH+tGAKjL/voKb3QnJaC/LIJB8+e7LOVHkDnjQU/Y4Fj4gs2MKS/YkHQhOaz91RSufYFRmA0wnQrd+xv2rvbsGMq5+oPpJP4+feexjc63R9vdTTdG7F7ERpOPIHH2ZqSXn7Es3duXfes="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Федор Лавров",
+    "vk_token": "vk1.a.URi_n4aI3Q27OXpEyS3QeiXYoEtwtzlNo2aTKx5f4p4O1JH5Vr0q9G11bes8t-LKbo5ZWqo130DTGroyTrqyAvEIt4ILmKT7I-WQQujCgH99xEeFbo696tFj0_P0QeAIb_yQz3Q1HBNb79lEXG-T-2tmoVoz9vcPJjyKm2SkPbP6wLPO-9ZuMOIOBXvDhrnobhLbO5ej2zEhlrtY8I7TsA",
+    "id": 5,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBuyyKhLlZD4rG7N6lulfQVYbM6CDG5kvoGLDjCf6wIqxFY7Gylm9z3TnIWS+AMLKck1ishCnpf6DsyPJeQSesk83Jes/fsscf+t3XYlwYkrKSH0cn+AObmES+ZWJip5cX0vV/2Atw4hoZ9uGoV5skIXn6W3DjIhjp1fRCLLLppG1lNXOVl1MQ4LFz0oiJ93sVmz15K/t8iO2L/UviaakAmtESplQyDQ832EYs2SkNRTebcKoNgFyCiFthB3Q2ZSQ6QVHNVBbg/T1B5absHv69JmVkv/B+1Y7/yFMpPSkeDpNTz65yL4VEZnEHDZWkqM4km/dadu34N8t63Sq6G87HSQQ="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Ирина Лаптева",
+    "vk_token": "vk1.a.cFPObXZGByk0rlhacSD5F-lB80jrfdnVGxR3u3SP0TOtZ60qhrT_tDolPrizdRzGEO7jZVbEo7Pmx1qpbCPKjz4BgNcBPp8gwFI1pZVuOt3diZCuvBoFYQGuApEqnkliA9YnjkrOCMMNRiK9WJ-BqALUgGUnF3lSUrAyy8MTXKJVyS5OjH5xU8R1ijbGi5Ap7zqEJQrvDxtWGN3dJDnWNw",
+    "id": 6,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu472d6s0o9MIgIf8CXNqGA89VnN9FNVAJUkncbtpyArn/FJMBZiAPs980Qf4gAdt+y1Y0ghtWF8SbkGNZSbmAjo8QIJLPaCFg0/Ttx18MjKbWw2fEUPKaZhsCHSeIPnGtngE5WQLdVeG3MDmfOki1ciarZqLyrMTpw7RuIH7uYaSU49rMGjIWUouVtNgFSATe6IUvC1R7u0Wrbk9w/3MpXrBIwAldRWy1GICbwPU6uPmwJtErrJelvvVvB4DuIBTztxq+YlSxXbi62nESWQEeh/RwsS7ILpqWmN0WwtiIQsMtwyo/zIKiVVQQIpe+XAnF4yYQtGlXyvD1+uLaTn3/Tg="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Антон Яков",
+    "vk_token": "vk1.a.tX0i9-hpbo6mF0o6tzy841El06M-2fcoI-HhoQPaOmlPOt2ZaU5ZnAF4_cfmQSAe3buD6iBmtuX5cu-xQeCM4YX7AXuniLacFlyDq9CYEEsGmfLRIKSOwNY_xuLd8AL3xqncpVI9fm0aoev4VoewcR11jadp1EDKQhRALoxLY5nxp-0Eu9AiT0-SM_kde3TmTkAwFN-uDfllLPEJkTX1Ig",
+    "id": 7,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBuxBSbCITIbWRzFGARbYwznnBZwAz5sFFPsz12E01RShU62lTgUquFNbXefXYUk5qkyCLuIS6hTBNk8SXSCtT2nB3oFsYMBmucHlXbWlHsQ6BtrjFmcDxVVrAK9TaW9dEUo3mBhSgAcfrcahICpRaMaNV26MTBtbFAVMul54ffUiJb6jyoatZBC2omkG4LceufPZ69hCnJ8pdmbdK5VBHV0MpS+MDfaF3VFFI1q3NtWFn4Dl5yEtMOT6crFNeXtPpvrlbyZEGbR+hloJTsN1i/zrX+NFyo/lCXTc1r2HK/EDF98kSj8xdgqZ2/eR8Ab1z+xwCMPUi7XMxBYZLCiO+2mQ="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name": "Виталий Коршун",
+    "vk_token": "vk1.a.amc0VMIVmQDt6NynsorLMXkrguaniuvQ0B_5PP9DqUvv7yIVBmADg1SRckBldNoaQkmMcZUkXqObqaCHs_ZmcCQzNrWzw1PRIYhYDrCDgy3biYMmtxVrLFfNaSk9nvIBeOeNcqb1mi7KGWgfeclPBSwTg5BoiNXKLAKosQrdNRKVIxpKwXgJX-T-WqlRvom_C8NMt3cyN9qIUjW_jbSBXg",
+    "id": 8,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu3yZWOv+0bREDUaJrDYzICnDj6mlyMzyi/MxfE2ccadkIv1skAxC+qTZv6CzteXFja4+5GmTx/pTKXJPcvU9KX5Qhj6mKUlI01X62mPYa8eG3Hd1Z8RVZuOcfS7T3ePhTV3HMoBDMM0nUiuyYu12Z5C8G8UP6ImogCZT3OnMWFWpHhOVdilspHU9nJpFhxlxay+ObFXav+iW4YM+P6L7HcdNgtjqVXY0YKsxulc3TRng5FDUQisTSc7k97PIKCG3pfNd4zZGlDFP5/wos4+MQAo55B85uqVufffHf6W3YnjzsHPgEDeDdg3Sr24eubqGUjzPr73/GJemITvz1IdVRHM="
+  },
+  {
+        "chat_id": "-1002235025529",
+    "api_id": 27397262,
+    "api_hash": "3249d89b4aee12008ae34acc5169d693",
+    "name":"Варварва Жемчугова",
+    "vk_token":"vk1.a.EKuV0PHM9DNDyrRfy27AbbchsFuIroDd9F-iG7JmSM5ZckXpEnCIe7uMkWubun7IJwU0PqKo5-ziu4QaJQ_kQiHBdQTfjhMNZIugdLpHUoiDZ4uFZXPl8r9SXCqBM5c4ntO3Q5GjIefR1i-KXFaeg6Lk_OYuOAa9Zqpk6Og9KTU6kaLdMnGaucNm2VCt_umC5iAzrjRGWbqgHJ8DhEa5xw",
+    "id": 9,
+    "session": "1AgAOMTQ5LjE1NC4xNjcuNDEBu59L3dRV0EizOmkwQK1jJoGqRyEOCPaom/dg9OK2a6f2GpwIk6s3nxKD2iivdtLe/9bwL45d4Zbi8+l7tsKFn8DPkv5iyUdvRHgh3F2aCAuGEiWIWPPMu6EKzXh00PxzGvjx7BOy0ciyaHaDNGTlg5qjphN3Gxu3vbiEE4Cd7HJDo1T7OOJQe4PY0qZLNVoHJNNcHj2iCppclnFigOSMFeIsoo+M7iKDiX1QJJjj1oTMxrRE2Aymdjr7vnO+dp6+kCBBZdZ5ny9K1u2hPBJ+s+eagEQlmvW2FQDbceImtg5+NC63auX+UQ+rnCiGvoWWL68C3X4wOSiBbOcMB6Mj7Do="
   }
 ]
